@@ -1,36 +1,120 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Animated Project 2
 
-## Getting Started
+A modern animated portfolio-style landing page built with Next.js, React, Tailwind CSS, and Framer Motion.
 
-First, run the development server:
+The project currently focuses on a single hero section with:
+
+- A bold gradient background
+- Animated profile reveal
+- Personal intro text
+- Call-to-action buttons
+- Custom image assets and visual effects
+
+## Live Preview
+
+Run the app locally and open it in your browser:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Then visit:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```text
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Tech Stack
 
-## Learn More
+- **Next.js 16** - App Router project structure
+- **React 19**
+- **TypeScript**
+- **Tailwind CSS 4**
+- **Framer Motion** - entrance and hover animations
+- **next/image** - optimized image handling
+- **DM Sans** - global font
 
-To learn more about Next.js, take a look at the following resources:
+## Features
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Responsive full-screen hero layout
+- Animated profile image reveal
+- Smooth text and button animations
+- Custom gradient and glow effects
+- Local static assets stored in `public/assets`
+- Scroll-smooth behavior and black base theme
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Project Structure
 
-## Deploy on Vercel
+- `app/page.tsx` - home page entry point
+- `app/layout.tsx` - root layout and metadata
+- `app/globals.css` - global styles and Tailwind setup
+- `components/Hero.tsx` - main hero section
+- `components/Navbar.tsx` - navbar component placeholder
+- `public/assets/` - images and visual assets used by the page
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Getting Started
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### 1. Install dependencies
+
+```bash
+npm install
+```
+
+### 2. Start the development server
+
+```bash
+npm run dev
+```
+
+### 3. Build for production
+
+```bash
+npm run build
+```
+
+### 4. Start the production server
+
+```bash
+npm run start
+```
+
+### 5. Run lint checks
+
+```bash
+npm run lint
+```
+
+## How It Works
+
+The homepage renders the `Hero` component from `app/page.tsx`. Inside `Hero`, the profile image and headline animate into view using Framer Motion. The background is created with layered gradients and glow effects, while the global stylesheet defines the base black theme and utility animation helpers.
+
+## Customization
+
+If you want to personalize the project, the main places to edit are:
+
+- `components/Hero.tsx` for the headline, description, buttons, and animation behavior
+- `public/assets/profilepic.png` for the profile image
+- `app/layout.tsx` for the page title and metadata
+- `app/globals.css` for theme colors and global styling
+
+You can also extend the site by replacing `Navbar.tsx` with a real navigation bar and adding more sections below the hero.
+
+## Notes
+
+- The current `Navbar` component is only a placeholder.
+- The hero text and name are sample content and should be replaced with your real details.
+- The project is designed to be easy to adapt into a personal portfolio or agency landing page.
+
+## Deployment
+
+This project can be deployed easily to Vercel or any platform that supports Next.js.
+
+For Vercel, connect the repository and deploy with the default build command:
+
+```bash
+npm run build
+```
+
+## License
+
+Add a license if you want to publish or share this project publicly.
