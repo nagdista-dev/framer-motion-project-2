@@ -7,7 +7,7 @@ const dmSans = DM_Sans({
   subsets: ["latin"],
 });
 export const metadata: Metadata = {
-  title: "P2 Animation",
+  title: "Framer Motion Project 2",
   description: "Created By @nagdista || nagdista.com",
 };
 

@@ -1,8 +1,8 @@
-# Animated Project 2
+# Framer Motion Project 2
 
 A modern animated portfolio-style landing page built with Next.js, React, Tailwind CSS, and Framer Motion.
 
-The project currently focuses on a single hero section with:
+The project is still in progress and currently includes only the hero section with:
 
 - A bold gradient background
 - Animated profile reveal
@@ -11,6 +11,10 @@ The project currently focuses on a single hero section with:
 - Custom image assets and visual effects
 
 ## Live Preview
+
+Preview the current deployment here:
+
+https://framer-motion-project-2.netlify.app
 
 Run the app locally and open it in your browser:
 
