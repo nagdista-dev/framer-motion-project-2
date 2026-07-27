@@ -1,124 +1,44 @@
-# Framer Motion Project 2
+# Framer Motion — Project 2
 
-A modern animated portfolio-style landing page built with Next.js, React, Tailwind CSS, and Framer Motion.
+<p align="center">
+  <img src="https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=white" alt="React" />
+  <img src="https://img.shields.io/badge/Framer_Motion-11-0055FF?style=for-the-badge" alt="Framer Motion" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-4-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind CSS" />
+  <img src="https://img.shields.io/badge/license-MIT-green?style=for-the-badge" alt="License" />
+</p>
 
-The project is still in progress and currently includes only the hero section with:
+A second practice project diving deeper into **Framer Motion** — advanced animations, shared layouts, and complex transitions.
 
-- A bold gradient background
-- Animated profile reveal
-- Personal intro text
-- Call-to-action buttons
-- Custom image assets and visual effects
+## What's Inside
 
-## Live Preview
-
-Preview the current deployment here:
-
-https://framer-motion-project-2.netlify.app
-
-Run the app locally and open it in your browser:
-
-```bash
-npm run dev
-```
-
-Then visit:
-
-```text
-http://localhost:3000
-```
+- Advanced page transitions
+- Shared layout animations
+- Complex gesture interactions
+- AnimatePresence for mount/unmount animations
+- Spring physics and custom variants
 
 ## Tech Stack
 
-- **Next.js 16** - App Router project structure
-- **React 19**
-- **TypeScript**
-- **Tailwind CSS 4**
-- **Framer Motion** - entrance and hover animations
-- **next/image** - optimized image handling
-- **DM Sans** - global font
-
-## Features
-
-- Responsive full-screen hero layout
-- Animated profile image reveal
-- Smooth text and button animations
-- Custom gradient and glow effects
-- Local static assets stored in `public/assets`
-- Scroll-smooth behavior and black base theme
-
-## Project Structure
-
-- `app/page.tsx` - home page entry point
-- `app/layout.tsx` - root layout and metadata
-- `app/globals.css` - global styles and Tailwind setup
-- `components/Hero.tsx` - main hero section
-- `components/Navbar.tsx` - navbar component placeholder
-- `public/assets/` - images and visual assets used by the page
+- React 19
+- Framer Motion 11
+- Tailwind CSS 4
 
 ## Getting Started
 
-### 1. Install dependencies
-
 ```bash
+git clone https://github.com/nagdista-dev/framer-motion-project-2.git
+cd framer-motion-project-2
 npm install
-```
-
-### 2. Start the development server
-
-```bash
 npm run dev
 ```
 
-### 3. Build for production
+Open `http://localhost:5173`.
 
-```bash
-npm run build
-```
+## Resources
 
-### 4. Start the production server
-
-```bash
-npm run start
-```
-
-### 5. Run lint checks
-
-```bash
-npm run lint
-```
-
-## How It Works
-
-The homepage renders the `Hero` component from `app/page.tsx`. Inside `Hero`, the profile image and headline animate into view using Framer Motion. The background is created with layered gradients and glow effects, while the global stylesheet defines the base black theme and utility animation helpers.
-
-## Customization
-
-If you want to personalize the project, the main places to edit are:
-
-- `components/Hero.tsx` for the headline, description, buttons, and animation behavior
-- `public/assets/profilepic.png` for the profile image
-- `app/layout.tsx` for the page title and metadata
-- `app/globals.css` for theme colors and global styling
-
-You can also extend the site by replacing `Navbar.tsx` with a real navigation bar and adding more sections below the hero.
-
-## Notes
-
-- The current `Navbar` component is only a placeholder.
-- The hero text and name are sample content and should be replaced with your real details.
-- The project is designed to be easy to adapt into a personal portfolio or agency landing page.
-
-## Deployment
-
-This project can be deployed easily to Vercel or any platform that supports Next.js.
-
-For Vercel, connect the repository and deploy with the default build command:
-
-```bash
-npm run build
-```
+- [Framer Motion Docs](https://www.framer.com/motion/)
+- [Framer Motion Examples](https://www.framer.com/motion/examples/)
 
 ## License
 
-Add a license if you want to publish or share this project publicly.
+This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
